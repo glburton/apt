@@ -1,6 +1,6 @@
 library(rapt)
 
-george.ato <- readATO('ato/BCY/R45_03334-v02.ato')
+george.ato <- readATO('../ato/BCY/R45_03334-v02.ato')
 george.imul <- indexMultiples(george.ato)
 george.multi <- multiples(george.imul)
 george.ato$multi <- george.multi
